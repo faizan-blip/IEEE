@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE SOCIETY</title>
+    <link rel="icon" href="logo2.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <script src="home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="particle-image.min.js"></script>
+		<div id="preloader">
+			<div id="container" class="container-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+						<span preloader-text="I" class="characters">I</span>
+						
+						<span preloader-text="E" class="characters">E</span>
+						
+						<span preloader-text="E" class="characters">E</span>
+						
+						<span preloader-text="E" class="characters">E</span>
+						
+						<span preloader-text="V" class="characters">V</span>
+						
+						<span preloader-text="S" class="characters">S</span>
+						
+						<span preloader-text="S" class="characters">S</span>
+
+                        <span preloader-text="U" class="characters">U</span>
+
+                        <span preloader-text="T" class="characters">T</span>
+					</div>
+				</div>	
+				<div class="loader-section section-left"></div>
+				<div class="loader-section section-right"></div>
+			</div>
+		</div>	
+</head>
+<body >
+    <!-- <div id="loading">
+     <img src="loader.gif" alt="" id="loadimg">  
+    </div>
+   -->
+    <header class="navbar">
+        <div class="image"><img src="ieee-vector-logo.png" alt="" width="100px" height="100%"></div>
+        <div class="nav">
+        <ul class="navlist" onclick="f1()">
+            <div class="flex">
+            <li onclick="close1()"><a class="active"  href="#home">Home</a></li>
+            <li onclick="close1()"><a class="active"  onclick="f1()"  href="#about">About Us</a></li>
+            <li onclick="close1()"><a class="active"   onclick="f1()" href="#">Events</a></li>
+            <li onclick="close1()"><a class="active" onclick="f1()"  href="#">Article</a></li>
+            <li onclick="close1()"><a class="active" onclick="f1()"  href="#">Members</a></li>
+            <li onclick="close1()"><a class="active"  onclick="f1()"  href="#">Contact Us</a></li>
+        </div>
+        </ul>
+        </div>
+        <div class="menu-lines" id="toggle-button">
+            <div onclick="f1()">
+            <i id="but" class="fa-solid fa-bars fa-2x"></i>
+            </div> 
+        </div>
+        <div class="cross" id="cross-button">
+            <div onclick="f1()">
+                <i id="but"class="fa-sharp fa-solid fa-xmark fa-2x"></i>
+            </div>
+        </div>
+    </header>
+    <section class="anime" id="home">
+      <!-- <div id="particles-js">
+        <!-- <div class="text"></div> -->
+      <!-- </div>  -->
+      <div id="particle-image" data-params-src="./params.json"></div>
+    </section>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <section class="about" id="about">
+        <h1 id="text">About Us</h1>
+        <div id="container1"></div>
+    </section>
+    <!-- <script>
+        var typing=new Typed(".text", {
+            strings: ["", "Advancing", "Technology", "For", "Humanity"],
+            typeSpeed: 200,
+            backSpeed: 80,
+            loop: true,
+        });
+     </script> -->
+     <script>
+      $(document).ready(function() {
+  setTimeout(function() {
+    $('#container').addClass('loaded');
+    // Once the container has finished, the scroll appears
+    if ($('#container').hasClass('loaded')) {
+      // It is so that once the container is gone, the entire preloader section is deleted
+      $('#preloader').delay(900).queue(function() {
+        $(this).remove();
+      });}
+  }, 3000);}); 
+      </script>
+</body>
+</html>
