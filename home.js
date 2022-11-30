@@ -3,8 +3,8 @@ function f1(){
     const button = document.getElementById('toggle-button');
     const cross = document.getElementById('cross-button');
     const nav = document.querySelector('.navlist');
-    const active = document.getElementsByClassName('active');
-    const navbar = document.querySelector('.navbar');
+    const flex = document.getElementsByClassName('flex');
+    const navbar = document.querySelector('.navbar')
     button.addEventListener('click' , () =>{
         button.style.display = 'none';
         nav.style.display = 'block';
@@ -19,7 +19,7 @@ function f1(){
     });
 }
 function close1(){
-    document.querySelector('.navbar').click();
+    document.getElementById('cross-button').click();
 }
 var preloader = document.getElementById("loading");
 // window.addEventListener('load', function(){

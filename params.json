@@ -31,7 +31,7 @@
   },
   "image": {
     "src": {
-      "path": "./anime.png",
+      "path": "anime.png",
       "is_external": true
     },
     "size": {
