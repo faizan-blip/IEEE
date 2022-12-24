@@ -13,7 +13,8 @@
     <script src="home.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <script src="particle-image.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- <script src="particle-image.min.js"></script> -->
 		<div id="preloader">
 			<div id="container" class="container-preloader">
 				<div class="animation-preloader">
@@ -74,16 +75,135 @@
         </div>
     </header>
     <section class="anime" id="home">
-      <!-- <div id="particles-js">
-        <!-- <div class="text"></div> -->
-      <!-- </div>  -->
+      </div> 
       <div id="particle-image" data-params-src="params.json"></div>
     </section>
-    <script src="particles.js"></script>
     <section class="about" id="about">
-        <h1 id="text">About Us</h1>
-        <div id="container1"></div>
+        <div><h1 id="title">About Us</h1></div>
+        <div class="line"></div>
+        <div class="row">
+            <div class="column">
+              <div class="card1">
+                <p>The Institute of Electrical and Electronics Engineers (IEEE) is a professional association for Electronic and Electrical Engineering (and associated disciplines) with its corporate office in New York City and its operations center in Piscataway, New Jersey. It was formed in 1963 from the amalgamation of the American Institute of Electrical Engineers and the Institute of Radio Engineers.</p>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card2">
+                <div><img src="/pngwing.com.png" alt="" width="300px" height="100%"></div>
+                <div>
+                <div class="texting"><p>The IEEE VSSUT BURLA STUDENT BRANCH got the petition for its approval to establish on 6th November 2018. It was then inaugurated on 14th February 2019 by Prof. T Srinivas from IISC, Bangalore in the presence of Hon'ble Vice Chancellor of VSSUT, Burla, Prof. Atal Chaudhuri, the IEEE Branch Counselor, Dr. Harish Kumar Sahoo and the Faculty advisor Dr. Papia Ray. By March 2019, it became the largest group with faculty members and students from Electrical, Electronic and Computer Science branch. Presently it is actively running with more than 80 members and 13 office bearers.</p>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+     <div onclick="expand()" id="read">
+        <button onclick="expand()" class="btn" >Read More</button>
+        </div>
+        <div onclick="expand1()" style="display: none;" id="ret">
+            <button onclick="expand()" class="btn" >Return</button>
+            </div>
     </section>
+    <section class="collaboration" style="display: none;" id="col">
+        <div><h1 id="title1">Collaboration</h1></div>
+        <div class="line1"></div>
+        <div class="column1">
+        <div class="card11" style="width: 18rem;">
+            <img src="/about-us-icon-34434.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="col1"></div>
+            <div class="card0" style="width: 18rem;">
+                <img src="/about-us-icon-34434.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+            <div class="col2">
+                <div class="card00" style="width: 18rem;">
+                    <img src="/about-us-icon-34434.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    </div>
+                    <div class="col3">
+                    <div class="card000" style="width: 18rem;">
+                        <img src="/about-us-icon-34434.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+          </div>
+    </section>
+    <section class="achievements"style="display: none;" id="ach">
+        <div><h1 id="title2">Achievements</h1></div>
+        <div class="line2"></div>
+       
+          
+    </section>
+    <section>
+        <div class="footer">
+            <div class="inner-footer">
+          
+          <!--  for company name and description -->
+              <div class="footer-items">
+                <img src="anime-removebg-preview.png" alt="" width="150px" height="150px">
+                <div class="typewriter">Advancing Technology for Humanity</div>
+              </div>
+          
+          <!--  for quick links  -->
+              <div class="footer-items">
+                <h3>Quick Links</h3>
+                <div class="border1"></div> <!--for the underline -->
+                  <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>About us</li></a>
+                    <a href="#"><li>Events</li></a>
+                    <a href="#"><li>Articles</li></a>
+                    <a href="#"><li>Members</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                  </ul>
+              </div>
+          <!--  for contact us info -->
+              <div class="footer-items">
+                <h3>Contact us</h3>
+                <div class="border1"></div>
+                  <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+                  </ul> 
+                
+          <!--   for social links -->
+                  <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                  </div> 
+              </div>
+            </div>
+            
+          <!--   Footer Bottom start  -->
+            <div class="footer-bottom">
+                <img src="logo2.png" alt="" width="40px" height="40px">
+              Copyright &copy; IEEE web devlopment team.
+            </div>
+          </div>
+</section>
+    <script src="particles.js"></script>
+        <div id="particles-js">
+        <div class="text"></div> 
+        </div>
+        
+    <!-- <section class="about" id="about">
+        <!-- <div>  <h1 id="text">About Us</h1></div>
+        <div id="container1">
+            <p>gdsgdsg</p>
+        </div> -->
+    <!-- </section>  -->
     <!-- <script>
         var typing=new Typed(".text", {
             strings: ["", "Advancing", "Technology", "For", "Humanity"],
