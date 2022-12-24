@@ -35,7 +35,7 @@ const ParticleImageDisplayer = function(tag_id, canvas_el, params) {
     },
     image: {
       src: {
-        path: "images/anime.png",
+        path: "anime.png",
         is_external: true
       },
       size: {

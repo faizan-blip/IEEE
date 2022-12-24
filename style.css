@@ -784,10 +784,21 @@ li i {
 	color: #fff;
 	font-size: 12px;
 	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
 .footer-bottom img{
   position: relative;
   top: 3px;
+}
+#up{
+position:absolute;
+left:2em
+}
+.footer-bottom a i{
+  border-radius: 70%;
+  background-color: rgb(234, 232, 232);
 }
 @media screen and (max-width: 1275px) {
 	.footer-items {
