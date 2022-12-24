@@ -7,6 +7,7 @@ function f1(){
     const navbar = document.querySelector('.navbar');
     button.addEventListener('click' , () =>{
         button.style.display = 'none';
+        nav.style.setTimeout = '2s'
         nav.style.display = 'block';
         cross.style.display = 'block';
         navbar.style.height = "340px";
@@ -26,8 +27,9 @@ function f1(){
     const nav = document.querySelector('.navlist');
     const button = document.getElementById('toggle-button');
      const cross = document.getElementById('cross-button');
+     const title = document.getElementById('title');
      const x = window.matchMedia("(max-width: 767px)");
-     if(x.matches){
+     if(x.matches){    
     navbar.style.height = "67px";
     nav.style.display = 'none';
     button.style.display = 'block';

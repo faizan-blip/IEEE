@@ -4,7 +4,7 @@ const ParticleImageDisplayer = function(tag_id, canvas_el, params) {
     particles: {
       array: [],
       density: 80,
-      color: '#2e3192',
+      color: '#285CBC',
       size: {
         value: 3,
         random: false,

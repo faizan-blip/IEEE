@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
     margin: 0px;
-    scroll-behavior: smooth;
     padding: 0px;
     z-index: 0;
 }
@@ -123,7 +125,7 @@ body{
      }
      .cross{
         position: relative;
-        bottom: 5.6em;
+        bottom: 8em;
         right: 1.3em;
      }
      .flex{
@@ -174,7 +176,6 @@ body{
     z-index: 999!important;
 }
 #particles-js{
-    position: relative;
     height: 100%;
     background:linear-gradient(to bottom right,rgb(7, 68, 235),rgb(16, 16, 73),rgb(7, 68, 235),rgb(16, 16, 73),rgb(7, 68, 235));
     mix-blend-mode: screen;
@@ -227,19 +228,7 @@ body{
         color: aliceblue;
 	}
 } */
-.text{
-    color: white;
-      border-right: 2px solid rgb(253, 236, 236);
-      font-size: 26px;
-      font-family: 'Rubik Distressed', cursive;
-      color: rgb(4, 0, 255);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position:absolute;
-      top: -15em;
-      left: 44.4em;
-  }
+
   /* #loading{
 	position: fixed;
 	width: 100%;
@@ -425,7 +414,7 @@ to {
   
   } */ 
   #particle-image{
-    background: linear-gradient(to bottom left, rgb(120, 120, 128),rgba(57, 80, 148, 0.975));
+    background: linear-gradient(to top left, rgb(35, 107, 231),rgb(252, 253, 255),rgb(35, 107, 231));
     height: 100%;
     padding-left: 3em;
     padding-right: 3em;
@@ -455,14 +444,16 @@ to {
 }
 #title{
   font-size: 40px;
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
   color: rgb(243, 241, 241);
+  /* margin-top: 3em; */
+  padding-top:2em;
 }
 .line{
   height: 1px;
   width: 8em;
   background-color: rgb(62, 103, 223);
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 .column {
   float: left;
@@ -505,15 +496,16 @@ to {
   padding: 20px;
   text-align: justify;
   margin-top: 25px;
-  background-color: #323030;
+  background-color: rgb(44, 39, 39);
   color: aliceblue;
+  backdrop-filter: blur(5px);
 }
 .card2{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 24px;
   margin-top: 10px;
   text-align: justify;
-  background-color: #323030;
+  background-color: rgb(44, 39, 39);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -632,41 +624,45 @@ transition-delay: 0.5;
 }
 .card11{
   box-sizing: border-box;
-  background-color: rgb(108, 107, 107);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(44, 39, 39);
   margin: 25px 10px;
 }
 .card0{
   box-sizing: border-box;
-  background-color: rgb(74, 72, 72);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(44, 39, 39);
   margin: 25px 10px;
 }
 .card00{
   box-sizing: border-box;
-  background-color: rgb(77, 76, 76);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(44, 39, 39);
   margin: 25px 10px;
 }
 .card000{
   box-sizing: border-box;
-  background-color: rgb(87, 85, 85);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(44, 39, 39);
   margin: 25px 10px;
 }
 #title1{
   font-size: 40px;
   font-family: cursive;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 .line1{
   height: 1px;
   width: 12em;
   background-color: rgb(62, 103, 223);
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 
 /* achieve */
 .achievements{
-  height: 50vh;
+  height: 100%;
   padding-top: 2em;
-  height:100vh ;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -677,12 +673,13 @@ transition-delay: 0.5;
   font-size: 40px;
   font-family: cursive;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 .line2{
   height: 1px;
   width: 13em;
   background-color: rgb(62, 103, 223);
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 /* footer */
 .footer {
@@ -796,11 +793,18 @@ li i {
 	.footer-items {
 		width: 50%;
 	}
+  .inner-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-items img {
+		position: relative;
+    left: 17.9em;
+	}
 }
-
 @media screen and (max-width: 660px) {
 	.footer-items {
-		width: 100%;
+		width:100%;
 	}
   .footer-items img {
 		position: relative;
