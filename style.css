@@ -536,6 +536,7 @@ to {
 }
 .btn:hover{
   letter-spacing: 3px;
+  cursor: pointer;
 }
 .btn::before{
 content: "";
