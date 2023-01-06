@@ -37,7 +37,7 @@ body{
     top: 0;
     justify-content:space-between;
     align-items: center;
-    background: #00121b;
+    background: #0066A1;
     padding: 0;
     width: 100%;
     height: 67px;
@@ -414,7 +414,7 @@ to {
   
   } */ 
   #particle-image{
-    background: linear-gradient(to top left, rgb(35, 107, 231),rgb(252, 253, 255),rgb(35, 107, 231));
+    background: linear-gradient(to top left, rgb(18, 67, 150),rgb(252, 253, 255),rgb(18, 65, 145));
     height: 100%;
     padding-left: 3em;
     padding-right: 3em;
@@ -798,6 +798,13 @@ transition-delay: 0.5;
   background-color: rgb(62, 103, 223);
   padding-bottom: 3px;
 }
-#hm:hover{
+#hm:hover,#maili:hover,#call:hover{
    color: #2db2ff;
+}
+#mail,#call{
+  transform: scale(0.8);
+}
+#call{
+  position: relative;
+  right: 1em;
 }
