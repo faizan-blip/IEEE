@@ -139,7 +139,7 @@ span{
     span{
         display: none;
     }
-    h1{
+    #spi{
         display: none;
     }
     #event{
@@ -246,3 +246,146 @@ span{
         transform: rotate(360deg);
     }
 }
+
+/* footer */
+.main-footer ul {
+    list-style: none;
+  }
+  .main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .main-footer h1 {
+    font-size: 25px;
+    line-height: 110%;
+    color:rgb(216, 214, 214);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .main-footer h2 {
+    /* color: #ffffff; */
+    /* font-weight: 500; */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .main-footer ul li a {
+    color:white;
+    text-decoration:none;
+  }
+  
+  #footer {
+    background: #0066A1;
+    font-size: 17px;
+    padding: 15px 5px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #footer a {
+    text-decoration: none;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  .contact-details li {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  .contact-details li a {
+    text-decoration:none;
+    color: #f1f1f1;
+  }
+  
+  .contact-details .fa {
+    color: #f1f1f1;
+    margin-right: 10px;
+  }
+  
+  .sociallogos{
+    padding:20px 0;
+  }
+  
+  .sociallogos .logobox a{
+    padding:0 10px;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:22px;
+   
+  }
+  .logobox a i{
+    transition: all 0.5s ease-in-out;
+  }
+  .logobox a i:hover{
+    transform: scale(1.5);
+  }
+  
+  .com ul li{
+    padding: 5px 0;
+    font-family: 'Lobster', cursive;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  @media only screen and (max-width: 749px) {
+    .main-footer {
+      padding:20px;
+      display: flex;
+      flex-direction: column;
+    }
+      .info{
+        padding:20px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-footer {
+      grid-template-columns: 1fr;
+    }
+    .sociallogos{
+      padding:20px 0;
+    }
+    .com{
+      padding:20px 0;
+    } 
+  
+  }
+  #socio{
+    margin-right: 0.4em;
+  }
+  #line1{
+    height: 1px;
+    width: 5em;
+    background-color: rgb(13, 14, 15);
+    padding-bottom: 3px;
+  }
+  #hm:hover,#mail:hover,#call:hover{
+     color: #2db2ff;
+  }
+  #mail,#call{
+    transform: scale(0.8);
+  }
+  #call{
+    position: relative;
+    right: 1em;
+  }
+  #line0{
+    height: 1px;
+    width: 5em;
+    background-color: rgb(13, 14, 15);
+    padding-bottom: 3px;
+    position: relative;
+    left: 3em;
+  }
+  #line2{
+    height: 1px;
+    width: 5em;
+    background-color: rgb(13, 14, 15);
+    padding-bottom: 3px;
+    position: relative;
+    left: 0.6em;
+  }

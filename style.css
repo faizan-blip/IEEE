@@ -695,7 +695,7 @@ transition-delay: 0.5;
 .main-footer h1 {
   font-size: 25px;
   line-height: 110%;
-  color: #4383c0e3;
+  color:rgb(216, 214, 214);
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -707,12 +707,12 @@ transition-delay: 0.5;
 }
 
 .main-footer ul li a {
-  color: #ffffffcc;
+  color:white;
   text-decoration:none;
 }
 
 #footer {
-  background: #00121b;
+  background: #0066A1;
   font-size: 17px;
   padding: 15px 5px;
   color: #ffffff;
@@ -795,10 +795,10 @@ transition-delay: 0.5;
 #line1{
   height: 1px;
   width: 5em;
-  background-color: rgb(62, 103, 223);
+  background-color: rgb(13, 14, 15);
   padding-bottom: 3px;
 }
-#hm:hover,#maili:hover,#call:hover{
+#hm:hover,#mail:hover,#call:hover{
    color: #2db2ff;
 }
 #mail,#call{
@@ -807,4 +807,20 @@ transition-delay: 0.5;
 #call{
   position: relative;
   right: 1em;
+}
+#line0{
+  height: 1px;
+  width: 5em;
+  background-color: rgb(13, 14, 15);
+  padding-bottom: 3px;
+  position: relative;
+  left: 3em;
+}
+#line2{
+  height: 1px;
+  width: 5em;
+  background-color: rgb(13, 14, 15);
+  padding-bottom: 3px;
+  position: relative;
+  left: 0.6em;
 }
