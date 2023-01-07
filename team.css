@@ -62,7 +62,7 @@ body{
 }
 
 .container .card .face.face1 .content img{
-    max-width: 150px;
+    /* max-width: 150px; */
 }
 
 .container .card .face.face1 .content h3{

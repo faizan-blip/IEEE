@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Rowdies', cursive;
 }
 html{
   scroll-behavior: smooth;
@@ -18,19 +19,9 @@ body{
   overflow-x: hidden;
 } */
 /* custom scroll bar */
-::-webkit-scrollbar {
-    width: 5px;
+::-webkit-scrollbar{
+	display: none;
 }
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #555;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: white;
-} 
 .navbar{
     display: flex;
     position: sticky;
@@ -59,7 +50,7 @@ body{
     text-decoration: none;
     color: rgb(245, 245, 248);
     /* font-weight: bold; */
-    font-family: 'Lobster', cursive;
+    font-family: 'Rowdies', cursive;
     padding: 20px 5px;
 }
 .image{
@@ -81,7 +72,7 @@ body{
   
 }
 #but{
-    color: rgb(46, 74, 234);
+    color: rgb(6, 6, 6);
 }
 .cross{
     position: relative;
@@ -386,7 +377,7 @@ to {
     align-items: center;
     /* position: relative;
     top: 1.5em; */
-    font-family: 'Lobster', cursive;
+    font-family: 'Rowdies', cursive;
     font-size: 34px;
   }
   /* .about{
@@ -440,12 +431,12 @@ to {
   align-items: center;
   flex-direction: column;
   /* background: linear-gradient(to top left, rgb(120, 120, 128),rgba(57, 80, 148, 0.975)); */
-  background-color: rgb(44, 39, 39);
+  background: #e0e0e0;
 }
 #title{
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(243, 241, 241);
+  font-family: 'Rowdies', sans-serif;
+  color: rgb(15, 14, 14);
   /* margin-top: 3em; */
   padding-top:2em;
 }
@@ -492,24 +483,26 @@ to {
 }
 /* Style the counter cards */
 .card1{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
+  border-radius: 12px;
   text-align: justify;
   margin-top: 25px;
-  background-color: rgb(44, 39, 39);
-  color: aliceblue;
+  box-shadow:  5px 5px 10px #676767,
+  -5px -5px 10px #ffffff;
+  color: rgb(10, 10, 10);
   backdrop-filter: blur(5px);
 }
 .card2{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow:  5px 5px 10px #676767,
+  -5px -5px 10px #ffffff;
   padding: 24px;
+  border-radius: 12px;
   margin-top: 10px;
   text-align: justify;
-  background-color: rgb(44, 39, 39);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
+  color: rgb(12, 12, 12);
 }
 .texting{
   padding: 0 40px;
@@ -601,7 +594,7 @@ transition-delay: 0.5;
   align-items: center;
   flex-direction: column;
   /* background: linear-gradient(to top left, rgb(120, 120, 128),rgba(57, 80, 148, 0.975)); */
-  background-color: rgb(44, 39, 39);
+  background-color:#e0e0e0;
 }
 .column1{
   display: flex;
@@ -625,33 +618,36 @@ transition-delay: 0.5;
 }
 .card11{
   box-sizing: border-box;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgb(44, 39, 39);
+  box-shadow:  5px 5px 10px #676767,
+  -5px -5px 10px #ffffff;
   margin: 25px 10px;
+  border-radius: 12px;
 }
 .card0{
   box-sizing: border-box;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgb(44, 39, 39);
+  box-shadow:  5px 5px 10px #676767,
+  -5px -5px 10px #ffffff;
   margin: 25px 10px;
+  border-radius: 12px;
 }
 .card00{
   box-sizing: border-box;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgb(44, 39, 39);
+  box-shadow:  5px 5px 10px #676767,
+  -5px -5px 10px #ffffff;
   margin: 25px 10px;
+  border-radius: 12px;
 }
 .card000{
   box-sizing: border-box;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgb(44, 39, 39);
+  box-shadow:  5px 5px 10px #676767,
+  -5px -5px 10px #ffffff;
   margin: 25px 10px;
+  border-radius: 12px;
 }
 #title1{
   font-size: 40px;
-  font-family: cursive;
-  font-family: 'Roboto', sans-serif;
-  color: white;
+  font-family: 'Rowdies',cursive;
+  color: rgb(9, 9, 9);
 }
 .line1{
   height: 1px;
@@ -667,14 +663,13 @@ transition-delay: 0.5;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(44, 39, 39);
+  background-color: #e0e0e0;
 }
 
 #title2{
   font-size: 40px;
-  font-family: cursive;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+  color: rgb(11, 11, 11);
+  font-family: 'Rowdies', cursive;
 }
 .line2{
   height: 1px;
@@ -703,7 +698,7 @@ transition-delay: 0.5;
 .main-footer h2 {
   /* color: #ffffff; */
   /* font-weight: 500; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rowdies', cursive;
 }
 
 .main-footer ul li a {
@@ -762,7 +757,7 @@ transition-delay: 0.5;
 
 .com ul li{
   padding: 5px 0;
-  font-family: 'Lobster', cursive;
+  font-family: 'Rowdies', cursive;
   transition: all 0.5s ease-in-out;
 }
 
