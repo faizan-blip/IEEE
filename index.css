@@ -1,7 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Rowdies' , cursive;
 }
 body{
@@ -17,7 +17,9 @@ body{
 ::-webkit-scrollbar {
     display: none;
 }
-
+html{
+  overflow-x: hidden;
+}
 .container99{
     
     width: 100%;
@@ -383,6 +385,7 @@ p{
 .container .card66{
     position: relative;
     cursor: pointer;
+    padding: 2em 2.5em;
 }
 
 .container .card66 .face{
@@ -446,10 +449,6 @@ p{
      box-shadow:  5px 5px 10px #676767, 
                   -5px -5px 10px #ffffff; 
     transform: translateY(-100px);
-}
-.face.face2::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 #web{
@@ -790,9 +789,10 @@ p{
 }
 .body{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    overflow-y: hidden;
+    overflow: hidden;
+    /* background-repeat: no-repeat; */
 }
 ::-webkit-scrollbar-thumb{
     color: #e0e0e0;
@@ -923,7 +923,7 @@ p{
     margin-right: 0.4em;
   }
   #line1{
-    height: 2.2px;
+    height: 2.4px;
     width: 5em;
     background-color: rgb(13, 14, 15);
     padding-bottom: 2px;

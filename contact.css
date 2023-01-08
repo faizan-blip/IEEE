@@ -7,7 +7,11 @@
     font-family: 'Rowdies' , cursive ;
 }
 body{
-    background:#e0e0e0;
+    background: linear-gradient(to top left, rgb(18, 67, 150),rgb(252, 253, 255),rgb(18, 65, 145));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+
 }
     ::-webkit-scrollbar {
         display: none;
@@ -55,7 +59,7 @@ box-shadow:  5px 5px 10px #676767,
     "form map";
     grid-gap: 20px;
     margin-top: 20px;
-    background: #e0e0e0;
+    /* background: #e0e0e0; */
     border-radius: 41px;
 }
 .contact h3{
@@ -92,8 +96,8 @@ box-shadow:  5px 5px 10px #676767,
     border-radius: 12px;
     border: none;
     /* background: #e0e0e0; */
-    box-shadow: inset 14px 14px 28px #acacac,
-                inset -14px -14px 28px #ffffff;
+    /* box-shadow: inset 14px 14px 28px #3688bb,
+                inset -14px -14px 28px #7d92df; */
 }.inputBox textarea{
     padding: 10px;
     font-size: 1.1em;
@@ -101,9 +105,9 @@ box-shadow:  5px 5px 10px #676767,
     /* border: 1px solid #333; */
     border-radius: 12px;
     border: none;
-    background: #e0e0e0;
-    box-shadow: inset 14px 14px 28px #acacac,
-                inset -14px -14px 28px #ffffff;
+    /* background: #e0e0e0; */
+    /* box-shadow: inset 14px 14px 28px #acacac,
+                inset -14px -14px 28px #ffffff; */
     resize: none;
     min-height: 150px; 
     margin-bottom: 10px;
