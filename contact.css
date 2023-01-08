@@ -235,6 +235,10 @@ button:active {
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
     border-radius: 12px;
+    transition:  all 0.5s ease-in;
+  }
+  img:hover{
+    transform: scale(1.2);
   }
   /* preloader */
   #loading{

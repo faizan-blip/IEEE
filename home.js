@@ -3,20 +3,25 @@ function f1(){
     const button = document.getElementById('toggle-button');
     const cross = document.getElementById('cross-button');
     const nav = document.querySelector('.navlist');
-    const flex = document.getElementsByClassName('flex');
+    const flex = document.querySelector('.flex');
     const navbar = document.querySelector('.navbar');
+    const news = document.getElementById('breaking-news-container')
     button.addEventListener('click' , () =>{
         button.style.display = 'none';
         nav.style.setTimeout = '2s'
         nav.style.display = 'block';
         cross.style.display = 'block';
         navbar.style.height = "340px";
+        news.style.top = "340px";
+      //   flex.style.display="block";
     });
     cross.addEventListener('click' , () =>{
         nav.style.display = 'none';
         cross.style.display = 'none';
         button.style.display = 'block';
         navbar.style.height = "67px";
+        news.style.top = "65px";
+      //   flex.style.display="none";
     });
 }
 // function close1(){
@@ -28,6 +33,7 @@ function f1(){
     const button = document.getElementById('toggle-button');
      const cross = document.getElementById('cross-button');
      const title = document.getElementById('title');
+   
      const x = window.matchMedia("(max-width: 767px)");
      if(x.matches){    
     navbar.style.height = "67px";

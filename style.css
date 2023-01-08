@@ -44,7 +44,11 @@ body{
     display: inline-block;
     list-style: none;
     padding: 0 15px;
-
+    transition-delay: 10s;
+}
+.navlist{
+  transition-delay: 2s;
+  transition-timing-function: ease-out;
 }
 .navlist ul{
   margin-right: 3em;
@@ -821,6 +825,8 @@ transition-delay: 0.5;
   overflow: hidden;
   position: absolute;
   top: 4em;
+  transition-delay: 0.25s;
+  transition-timing-function: linear;
   /* right: 5em; */
 }
 #breaking-news-container:before {
