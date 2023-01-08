@@ -167,9 +167,6 @@ box-shadow:  5px 5px 10px #676767,
 }
 
 @media(max-width:991px){
-    body{
-        background: linear-gradient(to top left, rgb(18, 67, 150),rgb(252, 253, 255),rgb(18, 65, 145));
-    }
     .contactUs{
         padding: 20px;
     }
