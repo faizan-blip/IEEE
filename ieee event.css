@@ -281,7 +281,16 @@ span{
     color: #ffffff;
     text-align: center;
   }
-  
+  .com{
+    position: relative;
+    right: 1.5em;
+  }
+  @media(max-width:747px){
+    .com{
+      position: relative;
+      left: -5px;
+    }
+  }
   #footer a {
     text-decoration: none;
   }
@@ -359,7 +368,7 @@ span{
     height: 1px;
     width: 5em;
     background-color: rgb(13, 14, 15);
-    padding-bottom: 3px;
+    padding-bottom: 2px;
   }
   #hm:hover,#mail:hover,#call:hover{
      color: #2db2ff;
@@ -375,7 +384,7 @@ span{
     height: 1px;
     width: 5em;
     background-color: rgb(13, 14, 15);
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     position: relative;
     left: 3em;
   }
@@ -383,7 +392,7 @@ span{
     height: 1px;
     width: 5em;
     background-color: rgb(13, 14, 15);
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     position: relative;
     left: 0.6em;
   }

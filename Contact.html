@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body onload="myFunction()">
+    <div id="loading">
+        <div id="preloader">
+            <div id="loader"></div>
+          </div>
+       </div>
+    
+ </div>
+    <div class="contactUs">
+       
+        <div class="title">
+            <a href="index.html">
+                <img src="anime-removebg-preview.png" alt="" width="50px" height="100%">
+            </a>
+            <h2>Get In Touch</h2>
+            </div>
+            <div class="box">
+                <div class="contact form">
+                    <h3>Send a Message</h3>
+                    <form action="" id="Contactform">
+                        <div class="alert" style="display: none;"  >Your Response Sent</div>
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>First Name</span>
+                                    <input id="name1" value="" type="text" placeholder="First Name" required>
+                                </div>
+                                    <div class="inputBox">
+                                    <span>Last Name</span>
+                                    <input id="name2" value="" type="text" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Email</span>
+                                    <input id="email" value="" type="text" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Message</span>
+                                    <textarea id="msg"  placeholder="Enter your Message here..." required></textarea>
+                                </div>
+                            </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    
+                                    <button type="submit">Send</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+
+                        <div>
+                            <span><ion-icon name="location"></ion-icon></span>
+                            <p>Veer Surendra Sai University of Technology,burla<br>Odisha</p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="mail"></ion-icon></span>
+                            <a href="mailto:ieeevssutburlasb@gmail.com">ieeevssutburlasb@gmail.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call"></ion-icon></span>
+                            <a href="tel:+91 8260555702">91 8260555702</a>
+                        </div>
+                        <ul class="sci">
+                            <li><a href="https://www.facebook.com/IEEE-VSSUT-BURLA-SB-378523262938582/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href="https://www.linkedin.com/company/ieee-vssut-burla-student-branch/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href="https://instagram.com/ieeevssut?igshid=YmMyMTA2M2Y="><ion-icon name="logo-instagram"></ion-icon></a></li>
+                            <li><a href="https://twitter.com/IEEE_VSSUT_SB?t=OmcWzxLFY5QrSohAZa4a9Q&s=08"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.2708391034384!2d83.90156731474015!3d21.497108885746616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a213da4ec28af2d%3A0xb33a5cc9af8c33c7!2sVeer%20Surendra%20Sai%20University%20of%20Technology!5e0!3m2!1sen!2sin!4v1672988509667!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="contact.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+          var preloader = document.getElementById("loading");
+     function myFunction(){
+      setTimeout(() =>{
+         preloader.style.display = 'none';
+        },2800);
+     };
+    </script>
+</body>
+</html>

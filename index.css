@@ -390,6 +390,8 @@ p{
     height: 200px;
     transition: 1s;
     border-radius: 12px;
+    /* box-shadow:  5px 5px 10px #676767,
+    -5px -5px 10px #ffffff; */
 }
 
 .container .card66 .face.face1{
@@ -398,12 +400,13 @@ p{
     /* background: #e0e0e0;
     box-shadow:  5px 5px 10px #676767,
                  -5px -5px 10px #ffffff;  */
-    background: transparent;
+    /* background: transparent; */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
+
 }
 
 .container .card66:hover .face.face1{
@@ -427,9 +430,10 @@ p{
 .container .card66 .face.face1 .content h3{
     margin: 10px 0 0;
     padding: 0;
-    color: #fff;
+    color: rgb(13, 13, 13);
     text-align: center;
     font-size: 1.5em;
+    font-family: 'Rowdies' , cursive;
 }
 
 .container .card66 .face.face2, .container .card66 .face.face3, .container .card66 .face.face4{
@@ -438,7 +442,7 @@ p{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 47px;
-    background: #e0e0e0;
+    /* background: #e0e0e0; */
      box-shadow:  5px 5px 10px #676767, 
                   -5px -5px 10px #ffffff; 
     transform: translateY(-100px);
@@ -919,10 +923,27 @@ p{
     margin-right: 0.4em;
   }
   #line1{
-    height: 3.2px;
+    height: 2.2px;
     width: 5em;
     background-color: rgb(13, 14, 15);
-    padding-bottom: 3px;
+    padding-bottom: 2px;
+    position: relative;
+    left: 0.7em;
+  }
+  .com{
+    position: relative;
+    right: 1.5em;
+  }
+  @media(max-width:747px){
+    .com{
+      /* align-items: center; */
+      position: relative;
+      left: -5px;
+    }
+  }
+  #hm{
+    text-align: center;
+    padding-right: 2em;
   }
   #hm:hover,#mail:hover,#call:hover{
      color: #2db2ff;
@@ -935,10 +956,10 @@ p{
     right: 1em;
   }
   #line0{
-    height: 1px;
+    height: 2px;
     width: 5em;
     background-color: rgb(13, 14, 15);
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     position: relative;
     left: 3em;
   }
@@ -946,7 +967,7 @@ p{
     height: 1px;
     width: 5em;
     background-color: rgb(13, 14, 15);
-    padding-bottom: 3px;
+    padding-bottom: 2.5px;
     position: relative;
     left: 0.6em;
   }
