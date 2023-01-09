@@ -5,7 +5,7 @@ function f1(){
     const nav = document.querySelector('.navlist');
     const flex = document.querySelector('.flex');
     const navbar = document.querySelector('.navbar');
-    const news = document.getElementById('breaking-news-container')
+    const news = document.getElementById('breaking-news-container');
     button.addEventListener('click' , () =>{
         button.style.display = 'none';
         nav.style.setTimeout = '2s'
@@ -33,13 +33,14 @@ function f1(){
     const button = document.getElementById('toggle-button');
      const cross = document.getElementById('cross-button');
      const title = document.getElementById('title');
-   
+     const news = document.getElementById('breaking-news-container');
      const x = window.matchMedia("(max-width: 767px)");
      if(x.matches){    
     navbar.style.height = "67px";
     nav.style.display = 'none';
     button.style.display = 'block';
     cross.style.display = 'none';
+    news.style.top = "65px";
      }
      else{
         navbar.style.opacity = '0.4';

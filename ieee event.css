@@ -46,7 +46,7 @@ span{
     height: 400px;
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 50%;
     transform: translate(-50%, -50%);
     /* background-image: url(event2.jpg); */
     background-size: 100% 100%;
@@ -68,6 +68,10 @@ span{
   100%{ background-image: url(eventimage1.jpg); }
 }
 
+.maindiv:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
 /*  */
 .column1{
     display: flex;
