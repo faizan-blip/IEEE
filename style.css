@@ -60,7 +60,8 @@ body{
     color: rgb(245, 245, 248);
     /* font-weight: bold; */
     font-family: 'Rowdies', cursive;
-    padding: 20px 5px;
+    padding: 1px 9px;
+    transition: all 0.5s ease-in-out;
 }
 .image{
     position: relative;
@@ -69,8 +70,13 @@ body{
 .navlist li .active:hover,.active:focus{
     color: rgb(7, 13, 38)!important;
     background-color: rgba(244, 245, 249, 0.911);
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
+    /* border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px; */
+    padding-top: 1.3em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
 }
 .menu-lines{
     position: relative;
@@ -515,6 +521,9 @@ transition-delay: 0.5;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.card-text{
+  text-align: center;
 }
 .col1{
   display: flex;

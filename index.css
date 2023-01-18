@@ -146,7 +146,7 @@ a{
     border-radius: 47px;
     /* opacity: 0.5; */
     transition: all 0.5s ease-out;
-    filter:  brightness(50%);
+    /* filter:  brightness(50%); */
 }
 .overlay{
     opacity: 0;
@@ -427,7 +427,11 @@ p{
 }
 
 .container .card66 .face.face1 .content #poster{
-    max-width: 150px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .container .card66 .face.face1 .content h3{
