@@ -455,7 +455,7 @@ p{
     visibility: hidden;
     padding: 0.5em;
     position: relative;
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 
 .container .card66:hover .face.face2{
@@ -534,7 +534,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row1  .overlay2{
     opacity: 0;
@@ -551,7 +551,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row2 .overlay3{
     opacity: 0;
@@ -568,7 +568,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row3 .overlay5{
     opacity: 0;
@@ -585,7 +585,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row4 .overlay7{
     opacity: 0;
@@ -602,7 +602,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row5 .overlay9{
     opacity: 0;
@@ -619,7 +619,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row6 .overlay11{
     opacity: 0;
@@ -636,7 +636,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row7 .overlay13{
     opacity: 0;
@@ -646,14 +646,31 @@ p{
     align-items: center;
     /* flex-direction: column; */
   position: absolute;
-  top: 951px;
+  top: 796px;
   left: 58px;
   bottom: 0;
   right: 0;
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
+}
+.row7 #overlay13{
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+position: absolute;
+top: 950px;
+left: 132px;
+bottom: 0;
+right: 0;
+width: 135px;
+height: 136px;
+  background-color: rgb(11, 11, 11);
+  /* border-radius: 47px; */
 }
 .row2 .overlay4{
     opacity: 0;
@@ -670,7 +687,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row3 .overlay6{
     opacity: 0;
@@ -687,7 +704,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row4 .overlay8{
     opacity: 0;
@@ -704,7 +721,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row5 .overlay10{
     opacity: 0;
@@ -721,7 +738,7 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 .row5 .overlay15{
     opacity: 0;
@@ -738,7 +755,24 @@ p{
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
+}
+.row5 .overlay16{
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+position: absolute;
+top: 643px;
+left: 132px;
+bottom: 0;
+right: 0;
+width: 135px;
+height: 136px;
+  background-color: rgb(11, 11, 11);
+  /* border-radius: 47px; */
 }
 .row6 .overlay12{
     opacity: 0;
@@ -754,7 +788,7 @@ p{
   right: 0;
   width: 135px;
   height: 136px;
-  border-radius: 47px;
+  /* border-radius: 47px; */
     background-color: rgb(11, 11, 11);
 }
 .row7 .overlay14{
@@ -765,17 +799,17 @@ p{
     align-items: center;
     /* flex-direction: column; */
   position: absolute;
-  top: 950px;
+  top: 796px;
   left: 207px;
   bottom: 0;
   right: 0;
   width: 135px;
   height: 136px;
     background-color: rgb(11, 11, 11);
-    border-radius: 47px;
+    /* border-radius: 47px; */
 }
 #flex:hover .overlay1 ,#flex:hover .overlay2 , #flex:hover .overlay3 , #flex:hover .overlay4 , #flex:hover .overlay5, #flex:hover .overlay6 , #flex:hover .overlay7 , #flex:hover .overlay8 ,
-#flex:hover .overlay9, #flex:hover .overlay10,#flex:hover .overlay11, #flex:hover .overlay12,#flex:hover .overlay13,#flex:hover .overlay14, #flex:hover .overlay15  {
+#flex:hover .overlay9, #flex:hover .overlay10,#flex:hover .overlay11, #flex:hover .overlay12,#flex:hover .overlay13,#flex:hover .overlay14, #flex:hover .overlay15 , #flex:hover #overlay13 {
     opacity: 0.7;
     cursor: pointer;
 }

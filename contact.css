@@ -216,6 +216,7 @@ button{
 }
 button:hover {
     border: 1px solid white;
+    cursor: pointer;
   }
   
 button:active {

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="jquery-3.6.1.min.js"></script>
 </head>
 <body onload="myFunction()">
     <div id="loading">
@@ -56,7 +57,7 @@
                             <div class="row100">
                                 <div class="inputBox">
                                     
-                                    <button type="submit">Send</button>
+                                    <button type="submit" id="emailLink" href="#" >Send</button>
                                 </div>
                             </div>
                             
@@ -103,6 +104,13 @@
      function myFunction(){
      window.onload(preloader.style.display = 'none')
      };
+    </script>
+    <script>
+        $(document).ready(function(){
+            // $("#emailLink").click(function(){
+        
+            
+        });
     </script>
 </body>
 </html>
