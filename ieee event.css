@@ -56,16 +56,16 @@ span{
 
 }
 @keyframes slider{
-  0%{ background-image: url(eventimage1.jpg); 
-      object-fit: contain;}
-  10%{ background-image: url(eventimage2.jpg); }
-  20%{ background-image: url(eventimage3.jpg); }
-  30%{ background-image: url(eventimage4.jpg); }
-  40%{ background-image: url(eventimage5.jpg) ;}
-  50%{ background-image: url(eventimage6.jpg) ;}
-  60%{ background-image: url(eventimage7.jpg) ;}
-  70%{ background-image: url(eventimage8.jpg) ;}
-  100%{ background-image: url(eventimage1.jpg); }
+  0%{ background-image: url(Event/eventimage1.jpg); 
+      }
+  10%{ background-image: url(Event/eventimage1.jpg); }
+  20%{ background-image: url(Event/eventimage2.jpg); }
+  30%{ background-image: url(Event/eventimage3.jpg); }
+  40%{ background-image: url(Event/eventimage4.jpg) ;}
+  50%{ background-image: url(Event/eventimage5.jpg) ;}
+  60%{ background-image: url(Event/eventimage6.jpg) ;}
+  70%{ background-image: url(Event/eventimage7.jpg) ;}
+  100%{ background-image: url(Event/eventimage8.jpg); }
 }
 
 .maindiv:hover{
@@ -100,6 +100,9 @@ span{
     box-shadow:  5px 5px 10px #676767,
                  -5px -5px 10px #ffffff;
     margin: 25px 10px;
+  }
+  .card-text{
+    text-align: center;
   }
   .card0{
     box-sizing: border-box;
