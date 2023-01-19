@@ -8,7 +8,7 @@ body{
     /* background:#e0e0e0; */
     /* z-index: 000; */
     /* background: #f8fdff; */
-    background: linear-gradient(to top left, rgb(18, 67, 150),rgb(252, 253, 255),rgb(18, 65, 145));
+    background-color:rgb(252, 253, 255);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto 100%;
@@ -92,12 +92,58 @@ span{
     font-family: 'Rowdies', cursive;
     color: black;
 }
-#title00{
-    padding: 1.5em;
+
+.one{
+  /* padding: 1.5em ; */
+  margin: 2em;
     text-align: center;
     /* font-family: 'Lobster', cursive; */
     font-family: 'Rowdies', cursive;
-    color: black;
+    color: black; 
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.one1 , .one2{
+  margin: 1em;
+  text-align: center;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Rowdies', cursive;
+  color: black; 
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.one h1, .one1 h1 ,.one2 h1{
+  box-shadow: 
+  inset 1px 1px 0px rgb(200, 196, 194);
+  padding: 0px 12px;
+  justify-content: center;
+  border-radius: 12px;
+  /* background-color: #0066A1; */
+}
+.one h1:before , .one1 h1:before , .one2 h1:before {
+  width: 28px;
+  height: 7px;
+  display: block;
+  content: "";
+  position: absolute;
+  /* bottom: 3px; */
+  margin-top: 47px;
+  left: 50%;
+  margin-left: -14px;
+  background-color:#0066A1;
+}
+.one h1:after ,.one1 h1:after , .one2 h1:after {
+  width: 100px;
+  height: 2px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 10px;
+  left: 50%;
+  margin-left: -50px;
+  background-color:#0066A1;
 }
 
 #home0{
@@ -165,6 +211,11 @@ a{
 .card:hover .overlay {
     opacity: 0.7;
     cursor: pointer;
+  
+}
+.card:hover{
+  background: #0066a1;
+    transform: scale(1.1);
 }
 /* preloader */
 #loading{
@@ -320,6 +371,14 @@ p{
         align-items: center;
         /* padding: 34em 0; */
     }
+    .one{
+     position: relative;
+     top: 3em;
+    }
+    .one2{
+      position: relative;
+      bottom: 1em;
+    }
     .box2{
         display: flex;
         flex-direction: column;
@@ -385,7 +444,7 @@ p{
 .container .card66{
     position: relative;
     cursor: pointer;
-    padding: 2em 2.5em;
+    padding:0.5em 2.5em;
 }
 
 .container .card66 .face{

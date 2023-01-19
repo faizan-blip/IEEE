@@ -5,7 +5,7 @@
     font-family: 'Rowdies', cursive;
 }
 body{
-  background: linear-gradient(to top left, rgb(18, 67, 150),rgb(252, 253, 255),rgb(18, 65, 145));
+  background-color:rgb(252, 253, 255);
 }
 ::-webkit-scrollbar{
 	display: none;
@@ -50,9 +50,12 @@ span{
     transform: translate(-50%, -50%);
     /* background-image: url(event2.jpg); */
     background-size: 100% 100%;
-    box-shadow: 1px 2px 5px 5px rgb(20, 19, 19);
+    /* box-shadow: 1px 2px 5px 5px rgb(20, 19, 19); */
     animation: slider 25s infinite linear;
     object-fit: contain;
+    border-radius: 41px;
+    box-shadow:  5px 5px 10px #676767,
+    -5px -5px 10px #ffffff;
 
 }
 @keyframes slider{
@@ -96,7 +99,7 @@ span{
   .card11{
     box-sizing: border-box;
     border-radius: 47px;
-    background: #e0e0e0;
+    /* background: #e0e0e0; */
     box-shadow:  5px 5px 10px #676767,
                  -5px -5px 10px #ffffff;
     margin: 25px 10px;
@@ -107,7 +110,7 @@ span{
   .card0{
     box-sizing: border-box;
     border-radius: 47px;
-    background: #e0e0e0;
+    /* background: #e0e0e0; */
     box-shadow:  5px 5px 10px #676767,
                  -5px -5px 10px #ffffff;
     margin: 25px 10px;
@@ -115,7 +118,7 @@ span{
   .card00{
     box-sizing: border-box;
     border-radius: 47px;
-    background: #e0e0e0;
+    /* background: #e0e0e0; */
     box-shadow:  5px 5px 10px #676767,
                  -5px -5px 10px #ffffff;
     margin: 25px 10px;
@@ -123,7 +126,7 @@ span{
   .card000{
     box-sizing: border-box;
     border-radius: 47px;
-    background: #e0e0e0;
+    /* background: #e0e0e0; */
     box-shadow:  5px 5px 10px #676767,
                  -5px -5px 10px #ffffff;
     margin: 25px 10px;

@@ -352,7 +352,7 @@ to {
   align-items: center;
   flex-direction: column;
   /* background: linear-gradient(to top left, rgb(120, 120, 128),rgba(57, 80, 148, 0.975)); */
-  background: #e0e0e0;
+  background: rgb(252, 253, 255);
 }
 #title{
   font-size: 40px;
@@ -515,7 +515,7 @@ transition-delay: 0.5;
   align-items: center;
   flex-direction: column;
   /* background: linear-gradient(to top left, rgb(120, 120, 128),rgba(57, 80, 148, 0.975)); */
-  background-color:#e0e0e0;
+  background-color:rgb(252, 253, 255);
 }
 .column1{
   display: flex;
@@ -587,7 +587,7 @@ transition-delay: 0.5;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #e0e0e0;
+  background-color:rgb(252, 253, 255);
 }
 
 #title2{
